@@ -1,0 +1,13 @@
+{
+  "name": "nimbalyst-trim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shrink Nimbalyst's chat database on macOS: hide and archive old messages, then VACUUM FULL",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.3.14"
+  }
+}
